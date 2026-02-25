@@ -1,0 +1,32 @@
+[
+{
+"id":"wic_0001",
+"difficulty":"medium",
+"passage":"Despite his reputation for being laconic, Marcus surprised everyone by delivering a speech that was unexpectedly articulate and animated.",
+"targetWord":"laconic",
+"question":"As used in the text, laconic most nearly means:",
+"choices":[
+{"label":"A","text":"talkative"},
+{"label":"B","text":"brief"},
+{"label":"C","text":"hesitant"},
+{"label":"D","text":"indifferent"}
+],
+"correctAnswer":"B",
+"explanation":"The contrast between laconic and delivering a long animated speech indicates that laconic means brief."
+},
+{
+"id":"wic_0002",
+"difficulty":"hard",
+"passage":"Although the proposal appeared innovative, critics warned that its implementation would prove prohibitively cumbersome.",
+"targetWord":"cumbersome",
+"question":"As used in the text, cumbersome most nearly means:",
+"choices":[
+{"label":"A","text":"efficient"},
+{"label":"B","text":"complicated"},
+{"label":"C","text":"inexpensive"},
+{"label":"D","text":"creative"}
+],
+"correctAnswer":"B",
+"explanation":"Cumbersome suggests something difficult or complicated to manage."
+}
+]
