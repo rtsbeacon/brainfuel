@@ -15,21 +15,10 @@ export default function Home() {
     return () => clearInterval(timer);
   }, [started, time]);
 
-  async function loadQuestion() {
-    const useSeed = Math.random() < 0.7;
-
-    if (useSeed) {
-      const q = seed[Math.floor(Math.random() * seed.length)];
-      setCurrent(q);
-    } else {
-      const res = await fetch("/api/generate", {
-        method: "POST",
-        body: JSON.stringify({ difficulty: "medium" })
-      });
-      const q = await res.json();
-      setCurrent(q);
-    }
-  }
+function loadQuestion() {
+  const q = seed[Math.floor(Math.random() * seed.length)];
+  setCurrent(q);
+}
 
   function answer(choice: string) {
     if (choice === current.correctAnswer) {
